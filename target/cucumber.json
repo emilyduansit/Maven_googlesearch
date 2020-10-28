@@ -1,0 +1,173 @@
+[
+  {
+    "line": 3,
+    "elements": [
+      {
+        "start_timestamp": "2020-10-28T06:36:41.086Z",
+        "line": 7,
+        "name": "google search",
+        "description": "",
+        "id": "title-of-your-feature;google-search",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5854001600,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user open the browser",
+            "match": {
+              "location": "StepDefinition.googlesearch.user_open_the_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 114000900,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "enter search text",
+            "match": {
+              "location": "StepDefinition.googlesearch.enter_search_text()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1783002900,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "click return",
+            "match": {
+              "location": "StepDefinition.googlesearch.click_return()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 147997600,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user is navigated to result page",
+            "match": {
+              "location": "StepDefinition.googlesearch.user_is_navigated_to_result_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          },
+          {
+            "name": "@tag1"
+          }
+        ]
+      }
+    ],
+    "name": "Title of your feature",
+    "description": "  I want to use this template for my feature file",
+    "id": "title-of-your-feature",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Feature/googlesearch.feature",
+    "tags": [
+      {
+        "name": "@tag",
+        "type": "Tag",
+        "location": {
+          "line": 2,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 5,
+    "elements": [
+      {
+        "start_timestamp": "2020-10-28T06:36:49.085Z",
+        "line": 8,
+        "name": "Title of your scenario",
+        "description": "",
+        "id": "login-feature;title-of-your-scenario",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 999300,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user is on the login page",
+            "match": {
+              "location": "StepDefinition.login.user_is_on_the_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user enter correct credential",
+            "match": {
+              "location": "StepDefinition.login.user_enter_correct_credential()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "click login button",
+            "match": {
+              "location": "StepDefinition.login.click_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user is navigated to home page",
+            "match": {
+              "location": "StepDefinition.login.user_is_navigated_to_home_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          },
+          {
+            "name": "@tag1"
+          }
+        ]
+      }
+    ],
+    "name": "login feature",
+    "description": "",
+    "id": "login-feature",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Feature/login.feature",
+    "tags": [
+      {
+        "name": "@tag",
+        "type": "Tag",
+        "location": {
+          "line": 4,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
